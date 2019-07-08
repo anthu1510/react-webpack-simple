@@ -8,6 +8,7 @@ module.exports = {
         filename: "bundle.js"
     },
     devServer: {
+         historyApiFallback: true,
         contentBase: path.join(__dirname, 'build'),
         compress: true,
         port: 2000
